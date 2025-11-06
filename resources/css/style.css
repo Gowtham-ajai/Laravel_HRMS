@@ -1,0 +1,11 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.card img {
+  height: 220px;
+  object-fit: cover;
+}
