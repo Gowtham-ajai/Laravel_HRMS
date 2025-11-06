@@ -28,6 +28,7 @@ class ContactController extends Controller
             'message' => 'required|string|min:10'
         ]);
 
+        
         try {
             Log::info('=== CONTACT FORM START ===');
             Log::info('Form data:', $validated);

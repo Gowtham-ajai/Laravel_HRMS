@@ -30,7 +30,7 @@ class AttendanceController extends Controller
                 $absentToday++;
             }
         }
-
+  
         return view('attendances.index', compact(
             'employees', 
             'presentToday', 
