@@ -37,7 +37,7 @@ class AttendanceController extends Controller
             'absentToday'
         ));
     }
-
+ 
     // Mark attendance for a single employee
     public function mark($id)
     {
